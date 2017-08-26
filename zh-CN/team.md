@@ -10,7 +10,7 @@ localized-teams:
     responsibility: "把握项目的总体方向、领导子团队、横向关注"
   Language design team:
     name: 语言设计团队
-    responsibility: "为语言设计新特性"
+    responsibility: "设计新的语言特性"
   Library team:
     name: 库团队
     responsibility: "Rust 标准库、Rust 语言的包及公约"
@@ -32,6 +32,12 @@ localized-teams:
   Rust team alumni:
     name: Rust 团队旧友
     responsibility: "享受悠哉的退休生活"
+  Infrastructure team:
+    name: 基础设施团队
+    responsibility: infrastructure supporting the Rust project itself: CI, releases, bots, metrics 
+  Cargo team:
+    name: Cargo 包管理器团队
+	responsibility: design and implementation of Cargo 
 ---
 
 # Rust 团队
@@ -46,7 +52,7 @@ Rust 的项目是由若干个团队分别[管辖](https://github.com/rust-lang/r
 <section id="{{ team.name | replace:' ','-' }}">
 <h2> {{ page.localized-teams[team.name].name | default: team.name }} </h2>
 
-<strong>职能</strong>：<em>{{ page.localized-teams[team.name].responsibility | default: team.responsibility }}</em>
+<strong>职责</strong>：<em>{{ page.localized-teams[team.name].responsibility | default: team.responsibility }}</em>
 
 <br />
 
