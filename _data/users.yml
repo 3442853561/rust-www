@@ -309,9 +309,9 @@
   how: "Software-defined storage georeplication daemon"
 -
   name: Sentry
-  url: https://www.getsentry.com/
+  url: https://sentry.io/
   logo: sentry-horizontal-black.svg
-  how: "<a href='http://lucumr.pocoo.org/2016/7/10/rust-rest/'>A command-line client for the Sentry API.</a>"
+  how: "<a href='https://blog.sentry.io/2016/10/19/fixing-python-performance-with-rust.html'>JavaScript, Java and iOS event processing and the command-line client for the Sentry API.</a>"
 -
   name: slowtec
   url: http://www.slowtec.de/
@@ -411,7 +411,7 @@
   name: CoreOS, Inc.
   url: https://coreos.com/
   logo: coreos.svg
-  how: "Internal tooling including documentation transformation and validation."
+  how: "Tools shipped within the Container Linux distribution as well as internal tooling including documentation transformation and validation."
 -
   name: 3D Hubs
   url: https://www.3dhubs.com/
@@ -524,3 +524,18 @@
   url: https://www.nomalab.com
   logo: nomalab.png
   how: "To analyse video, format and pixels."
+-
+  name: CancerIQ
+  url: http://www.canceriq.com/
+  logo: canceriq.png
+  how: "CancerIQ provides the tools for genetic counselors, imaging centers, and other practitioners to run a cancer risk program; <a href='http://engineering.canceriq.com/posts/rust/'>Rust powers several of our risk models</a>."
+-
+  name: IamBot
+  url: http://iambot.ai
+  logo: iambot.png
+  how: " Our high-performance data acquisition is fully implemented using Rust. Besides that, we are also using Rust for our API endpoints that communicate with internal systems."
+-
+  name: HealPay
+  url: https://healpay.com
+  logo: healpay.png
+  how: "We have been pushing Rust into every project we can. Currently we have several backend services built in rust."
