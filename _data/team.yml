@@ -75,6 +75,8 @@ people:
   Gankro:
     name: Alexis Beingessner
     ex-teams: ["libs"]
+  Havvy:
+    name: Ryan Scheel
   huonw:
     name: Huon Wilson
     irc: huon
@@ -190,7 +192,7 @@ people:
 teams:
   - name: Core team
     responsibility: "overall direction of the project, subteam leadership, cross-cutting concerns"
-    members: [nrc, alexcrichton, wycats, steveklabnik, nikomatsakis, carols10cents, aturon, ashleygwilliams]
+    members: [nrc, alexcrichton, aidanhs, wycats, steveklabnik, nikomatsakis, carols10cents, Mark-Simulacrum, aturon, ashleygwilliams]
   - name: Language team
     responsibility: "designing new language features"
     members: [cramertj, withoutboats, eddyb, nrc, pnkfelix, nikomatsakis, aturon]
@@ -200,14 +202,11 @@ teams:
     members: [solson, joshtriplett, whitequark, scottmcm]
   - name: Library team
     responsibility: "the Rust standard library, rust-lang crates, conventions, and ecosystem support"
-    members: [alexcrichton, sfackler, BurntSushi, Kimundi, dtolnay, aturon]
+    members: [alexcrichton, sfackler, BurntSushi, Kimundi, dtolnay, aturon, KodrAus, withoutboats]
     lead: aturon
-  - name: Library team shepherds
-    responsibility: "coordinating the Libz Blitz, helping guide libs RFCs to completion, keeping pulse on the ecosystem"
-    members: [KodrAus]
   - name: Compiler team
     responsibility: "compiler internals, optimizations"
-    members: [arielb1, eddyb, estebank, nrc, petrochenkov, pnkfelix, nikomatsakis, jseyfried, michaelwoerister, Zoxc]
+    members: [arielb1, cramertj, eddyb, estebank, nrc, petrochenkov, pnkfelix, nikomatsakis, jseyfried, michaelwoerister, Zoxc]
     lead: nikomatsakis
   - name: Dev tools team
     responsibility: "overall direction for tools for working with Rust code"
@@ -223,16 +222,24 @@ teams:
   - name: Infrastructure team
     responsibility: "infrastructure supporting the Rust project itself: CI, releases, bots, metrics"
     members: [alexcrichton, shepmaster, aidanhs, TimNN, carols10cents, Mark-Simulacrum, erickt, tomprince, kennytm, aturon]
-    lead: aturon
-    email: infra-team@rust-lang.org
+    lead: aidanhs
+    email: infra@rust-lang.org
+  - name: Release team
+    responsibility: "tracking regressions, stabilizations, and producing Rust releases"
+    members: [Mark-Simulacrum]
+    lead: Mark-Simulacrum
+    email: release@rust-lang.org
   - name: Community team
     responsibility: "coordinating events, outreach, commercial users, teaching materials, and exposure"
     lead: ashleygwilliams
     members: [edunham, skade, manishearth, johannhof, sebasmagri, carols10cents, badboy, booyaa, bstrie, erickt, jonathandturner, ashleygwilliams]
-    email: community-team@rust-lang.org
+    email: community@rust-lang.org
   - name: Documentation team
     responsibility: "ensuring Rust has fantastic documentation"
     members: [steveklabnik, GuillaumeGomez, frewsxcv, QuietMisdreavus]
+  - name: Documentation peers
+    responsibility: "oversight of specific documentation, and coordination with the docs team"
+    members: ["Havvy"]
   - name: Moderation team
     responsibility: "helping uphold the <a href='https://www.rust-lang.org/conduct.html'>code of conduct</a>"
     members: [mbrubeck, BurntSushi, manishearth, pnkfelix, niconii]
