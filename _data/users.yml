@@ -33,6 +33,11 @@
   logo: 360dialog.png
   how: "Most of our service consumers are written with Rust."
 -
+  name: 49nord
+  url: https://49nord.de/rust
+  logo: 49nord.svg
+  how: "49nord develops safe and secure Industrial IoT hardware and applications using Rust."
+-
   name: 3DR
   url: https://3dr.com/
   logo: 3dr.svg
@@ -47,6 +52,11 @@
   url: http://www.agildata.com/
   logo: agildata.svg
   how: "<a href='http://www.agildata.com/packet-capturing-mysql-with-rust/'>MySQL packet capture tool</a>."
+-
+  name: AISenz 艾森智能
+  url: https://loraflow.io/
+  logo: aisenz.svg
+  how: "Rust contributes to our LoRaWAN services and industry solutions in performance, reliability, and productivity."
 -
   name: Algorithmia
   url: https://algorithmia.com/
@@ -231,7 +241,7 @@
   name: Linkerd
   url: https://linkerd.io/
   logo: linkerd.svg
-  how: "<a href='https://blog.buoyant.io/2017/03/29/introducing-linkerd-tcp/'>We're using Rust to extend the Linkerd Service Mesh with a lightweight TCP/TLS load balancer, linkerd-tcp.</a>"
+  how: "<a href='https://buoyant.io/2017/03/29/introducing-linkerd-tcp/'>We're using Rust to extend the Linkerd Service Mesh with a lightweight TCP/TLS load balancer, linkerd-tcp.</a>"
 -
   name: Linki Tools
   url: http://linki.tools/
@@ -564,3 +574,53 @@
   url: https://starry.com
   logo: starry.svg
   how: "Re-imagining broadband by engineering a new wireless access network and building an ecosystem of products designed to simplify and improve your connected life."
+-
+  name: Tonsser
+  url: https://tonsser.com
+  logo: tonsser.png
+  how: "Moving performance intensive parts of our Ruby on Rails API to Rust for more speed and higher reliability."
+-
+  name: Tula Technology
+  url: https://www.tulatech.com/
+  logo: tulatech.png
+  how: "All our automotive code is verified using a Rust based harness; we're also working on transpiling MATLAB to Rust for additional model verification."
+-
+  name: ChartMogul
+  url: https://chartmogul.com
+  logo: chartmogul.png
+  how: "Our main microservice that generates the aggregate data displayed in ChartMogul graphs is written in Rust."
+-
+  name: FacturaDirecta
+  url: https://www.facturadirecta.com/
+  logo: facturadirecta.svg
+  how: "Optimizing search speed in our accounting software as a service."
+-
+  name: Yomura Fiber
+  url: https://yomurafiber.com/
+  logo: yomura.png
+  how: "Rust powers our GPON provisioning and statistic gathering."
+-
+  name: NAVITAS Solutions GmbH
+  url: https://www.navitas.de/
+  logo: navitas.png
+  how: "We're using Rust for a Scheduling-Service for one of our clients and the corresponding webserver backend."
+-
+  name: Webbula
+  url: https://webbula.com
+  logo: webbula.png
+  how: "For our back end data processing and fulfillment."
+-
+  name: Imeka
+  url: https://www.imeka.ca
+  logo: imeka.svg
+  how: "High performance medical imaging algorithms."
+-
+  name: Figma
+  url: https://www.figma.com/
+  logo: figma.svg
+  how: "<a href='https://blog.figma.com/rust-in-production-at-figma-e10a0ec31929'>Our real-time multiplayer syncing server (used to edit all Figma documents) is written in Rust.</a>"
+-
+  name: EXSigma
+  url: https://www.exsigma.com
+  logo: exsigma.svg
+  how: "EXSigma developed a privacy preserving, secure and environmental friendly Ad Network entirely in Rust."
