@@ -64,7 +64,7 @@ people:
     name: Mazdak Farrokhzad
     irc: centril
   celaus:
-    name: Claus Matzinger 
+    name: Claus Matzinger
   cramertj:
     name: Taylor Cramer
   cssivision:
@@ -268,17 +268,17 @@ people:
   onur:
     name: Onur Aslan
   Xanewok:
-    name: Igor Matuszewski 
+    name: Igor Matuszewski
   vlad20012:
-    name: Vlad Beskrovnyy 
+    name: Vlad Beskrovnyy
   alexheretic:
-    name: Alex Butler 
+    name: Alex Butler
   jasonwilliams:
-    name: Jason Williams 
+    name: Jason Williams
   autozimu:
-    name: Junfeng Li 
+    name: Junfeng Li
   LucasBullen:
-    name: Lucas Bullen 
+    name: Lucas Bullen
 
 # Information about each team. Omit `lead` for teams without leaders.
 #
@@ -301,7 +301,7 @@ teams:
     lead: alexcrichton
   - name: Compiler team
     responsibility: "compiler internals, optimizations"
-    members: [cramertj, eddyb, estebank, nagisa, nrc, oli-obk, petrochenkov, pnkfelix, nikomatsakis, michaelwoerister, Zoxc]
+    members: [cramertj, eddyb, estebank, nagisa, oli-obk, petrochenkov, pnkfelix, nikomatsakis, michaelwoerister, Zoxc]
     lead: nikomatsakis
   - name: Dev tools team
     responsibility: "Rust developer tools"
@@ -309,7 +309,7 @@ teams:
     lead: nrc
   - name: Cargo team
     responsibility: "design and implementation of Cargo"
-    members: [alexcrichton, carols10cents, matklad, withoutboats, wycats, joshtriplett, aturon]
+    members: [alexcrichton, matklad, withoutboats, wycats, joshtriplett, aturon]
     lead: aturon
   - name: IDEs and editors team
     responsibility: "IDEs, editors, and supporting tools such as Racer and the RLS"
@@ -317,7 +317,7 @@ teams:
     lead: nrc
   - name: Infrastructure team
     responsibility: "infrastructure supporting the Rust project itself: CI, releases, bots, metrics"
-    members: [alexcrichton, shepmaster, aidanhs, TimNN, carols10cents, Mark-Simulacrum, erickt, tomprince, kennytm, ashleygwilliams, sgrif]
+    members: [alexcrichton, shepmaster, aidanhs, TimNN, Mark-Simulacrum, erickt, tomprince, kennytm, ashleygwilliams, sgrif]
     lead: aidanhs
     email: infra@rust-lang.org
   - name: Release team
@@ -328,7 +328,7 @@ teams:
   - name: Community team
     responsibility: "coordinating events, outreach, commercial users, teaching materials, and exposure"
     lead: ashleygwilliams
-    members: [skade, manishearth, sebasmagri, badboy, booyaa, ashleygwilliams, oe, technetos, arshiamufti, parrywinkle, spacekookie, flaki, mattgathu, celaus, wezm, sunjay, carols10cents, bstrie, edunham, jonathandturner]
+    members: [skade, manishearth, sebasmagri, badboy, booyaa, ashleygwilliams, oe, technetos, arshiamufti, parrywinkle, spacekookie, flaki, mattgathu, celaus, wezm, bstrie, jonathandturner]
     email: community@rust-lang.org
   - name: Documentation team
     responsibility: "ensuring Rust has fantastic documentation"
@@ -347,7 +347,7 @@ teams:
     email: rust-mods@rust-lang.org
   - name: Rust team alumni
     responsibility: "enjoying a leisurely retirement"
-    members: [aatch, Gankro, pcwalton, huonw, peschkaj, dotdash, bkoropoff, brson, erickt, arielb1, jseyfried]
+    members: [aatch, Gankro, pcwalton, huonw, peschkaj, dotdash, bkoropoff, brson, erickt, arielb1, jseyfried, edunham]
 # Information on sites to get profile information from
 sites:
   github:
