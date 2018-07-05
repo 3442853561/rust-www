@@ -373,6 +373,11 @@
   logo: superscale.svg
   how: "We run rust-mips on tens of thousands of linux routers with 4-16Mb RAM. Rust is the only modern language that has low enough runtime constrains to make this possible."
 -
+  name: System76
+  url: https://system76.com/
+  logo: system76.svg
+  how: "As a Linux-based computer-manufacture, much of our infrastructure and desktop Linux projects are written in Rust. From hardware certification, flashing, and imaging; to system services and GTK3 desktop applications."
+-
   name: Telenor Digital
   url: https://www.telenordigital.com/
   logo: telenordigital.png
@@ -654,3 +659,8 @@
   url: https://solana.com/
   logo: solana.png
   how: "High performance blockchain, rebuilt for scale."
+-
+  name: Kodebox
+  url: https://codechain.io/
+  logo: kodebox.png
+  how: "We created CodeChain, a programmable open source blockchain technology optimal for developing and customizing multi-asset management systems."
