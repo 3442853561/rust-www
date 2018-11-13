@@ -73,6 +73,8 @@ people:
     name: Josh Stone
   dirtybit:
     name: Sertac Olgunsoylu
+  dwijnand:
+    name: Dale Wijnand
   dotdash:
     name: Björn Steinbrink
     irc: doener
@@ -83,8 +85,10 @@ people:
     name: Eduard Burtescu
   edunham:
     name: E. Dunham
-  emilio:
-    name: Emilio Cobos Álvarez
+  eh2406:
+    name: Jacob Finkelman
+  ehuss:
+    name: Eric Huss
   estebank:
     name: Esteban Kuber
   erickt:
@@ -281,6 +285,10 @@ people:
     name: Junfeng Li
   LucasBullen:
     name: Lucas Bullen
+  ishitatsuyuki:
+    name: Tatsuyuki Ishi
+  jtgeibel:
+    name: Justin Geibel
 
 # Information about each team. Omit `lead` for teams without leaders.
 #
@@ -311,8 +319,8 @@ teams:
     lead: nrc
   - name: Cargo team
     responsibility: "design and implementation of Cargo"
-    members: [alexcrichton, matklad, withoutboats, wycats, joshtriplett, aturon]
-    lead: aturon
+    members: [alexcrichton, dwijnand, eh2406, ehuss, joshtriplett, nrc, withoutboats, wycats]
+    lead: nrc
   - name: IDEs and editors team
     responsibility: "IDEs, editors, and supporting tools such as Racer and the RLS"
     members: [alexheretic, autozimu, jasonwilliams, LucasBullen, matklad, nrc, vlad20012, Xanewok]
@@ -322,6 +330,11 @@ teams:
     members: [alexcrichton, shepmaster, aidanhs, TimNN, Mark-Simulacrum, erickt, kennytm, ashleygwilliams, sgrif, pietroalbini]
     lead: aidanhs
     email: infra@rust-lang.org
+  - name: Crates.io team
+    responsibility: "management of operations, development, and policies for crates.io"
+    members: [carols10cents, ashleygwilliams, sgrif, jtgeibel, withoutboats, joshtriplett, ishitatsuyuki, steveklabnik, wycats]
+    lead: sgrif
+    email: help@crates.io
   - name: Release team
     responsibility: "tracking regressions, stabilizations, and producing Rust releases"
     members: [Mark-Simulacrum, jrozner, jkordish, cuviper, alexcrichton, dirtybit, Centril, sgrif, pietroalbini, BatmanAoD, PramodBisht, Lubits, ArazAbishov, Aaronepower, treiff, cssivision, gsollazzo, pambihira, stokhos]

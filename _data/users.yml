@@ -103,6 +103,11 @@
   logo: braintree.png
   how: "Speeding up batch processing and for small command-line utilities."
 -
+  name: Bytedance
+  url: https://bytedance.com/
+  logo: bytedance.png
+  how: "Use Rust for our cross-platform client-side development, safe and fast"
+-
   name: Calyptech
   url: http://calyptech.com
   logo: calyptech.png
@@ -146,7 +151,7 @@
   name: Coursera
   url: https://www.coursera.org
   logo: coursera.png
-  how: "<a href='https://building.coursera.org/blog/2016/07/07/rust-docker-in-production-coursera/'>Programming Assignments</a> in <a href='http://betacs.pro/blog/2016/07/07/docker-and-rust/'>secured Docker containers</a>."
+  how: "<a href='https://medium.com/coursera-engineering/rust-docker-in-production-coursera-f7841d88e6ed'>Programming Assignments</a> in secured Docker containers."
 -
   name: Coredump Hackerspace
   url: https://www.coredump.ch/
@@ -237,6 +242,11 @@
   url: https://imageoptim.com
   logo: imageoptim.png
   how: 'High-efficiency modern JPEG encoder written in Rust is at the heart of the <a href="https://imageoptim.com/api">image compression web service</a>.'
+-
+  name: iqlusion
+  url: https://iqlusion.io
+  logo: iqlusion.svg
+  how: "Rust is the main language we use to develop in-house and OSS software, and used for infrastructure/devops tools as well as cryptographic key management services."
 -
   name: krypt.co
   url: https://krypt.co
@@ -684,3 +694,13 @@
   url: https://starlab.io/
   logo: starlab.svg
   how: "As an embedded security company, Rust allows us to have confidence in the performance and reliability of our products."
+-
+  name: Routific
+  url: https://routific.com/
+  logo: routific.svg
+  how: "High performance route optimization software."
+-
+  name: Kentik
+  url: https://kentik.com/
+  logo: kentik.svg
+  how: "Our advanced network analytics platform relies on <a href='https://www.kentik.com/blog/under-the-hood-how-rust-helps-keep-kentik%27s-performance-on-high'>many Rust components</a>."
